@@ -1,0 +1,2 @@
+# Story
+beauty story
