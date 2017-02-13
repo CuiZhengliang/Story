@@ -2,8 +2,23 @@
  * Created by cuizhengliang on 2017/2/12.
  */
 $(document).ready(function(){
+    
+// 音乐播放控制
+    $('#music').on('click',function(){
+        var musicPlayer = $('audio');
+        if (musicPlayer[0].paused) {
+            musicPlayer[0].play();
+            $('#music').css({'animation-play-state':'running','-webkit-animation-play-state':'running'})
+        } else {
+            musicPlayer[0].pause();
+            $('#music').css({'animation-play-state':'paused','-webkit-animation-play-state':'paused'})
+        }
+    });
+
+// fullpage.js调用参数
     $('#story').fullpage({
         anchors: ['page1','page2','page3','page4','page5','page6','page7','page8','page9'],
+        fixedElements: '#music',
         afterLoad: function(anchorLink, index){
             switch (index) {
                 case 1:

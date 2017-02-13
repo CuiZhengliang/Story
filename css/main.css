@@ -1,5 +1,5 @@
-/*  主页面中HTML结构样式
- *  最近修改2017_2_12
+/*  脰梅脪鲁脙忙脰脨HTML陆谩鹿鹿脩霉脢陆
+ *  脳卯陆眉脨脼赂脛2017_2_12
  */
 
 *{
@@ -9,6 +9,21 @@
 
 .section{
     position: relative;
+}
+
+#music{
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    top: 4%;
+    right: 4%;
+    background: url('../images/music.png') no-repeat;
+    background-size: 80px 80px;
+    /*width:100% height:100% no-repeat;*/
+    z-index: 999;
+    cursor: pointer;
+    animation: circle 2s infinite;
+    -webkit-animation: circle 2s infinite;
 }
 
 #story p{
@@ -51,7 +66,7 @@
     opacity: 0;
 }
 
-img{
+#story img{
     position: absolute;
 }
 
@@ -232,4 +247,12 @@ img{
     transform: translate(-50%, 0);
     -webkit-transform:translate(-50%, 0);
     opacity: 0;
+}
+
+@keyframes circle{
+    0%   {transform: rotate(0deg);}
+    25%  {transform: rotate(90deg);}
+    50%  {transform: rotate(180deg);}
+    75%  {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
 }
