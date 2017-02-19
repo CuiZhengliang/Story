@@ -3,8 +3,15 @@
  */
 
 *{
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: center;
+    margin: 0 auto;
+}
+
+#story{
+    width: 750px;
+    height: 100%;
+    position: relative;
 }
 
 .section{
@@ -12,7 +19,7 @@
 }
 
 #music{
-    position: fixed;
+    position: absolute;
     width: 80px;
     height: 80px;
     top: 4%;
@@ -47,7 +54,7 @@
     left: 50%;
     transform: translate(-50%, -10%);
     -webkit-transform:translate(-50%, -10%);
-    bottom: 0;
+    bottom: 5%;
     opacity: 0;
 }
 
@@ -71,6 +78,8 @@
 }
 
 .p1 .p1sky{
+    width: 100%;
+    height: auto;
     top: 0;
     left: 50%;
     transform: translate(-50%, -30%);
@@ -80,6 +89,8 @@
 }
 
 .p1 .p1girl{
+    height: 50%;
+    width: auto;
     top: 50%;
     left: 26%;
     transform: translate(-50%, -50%);
@@ -88,6 +99,8 @@
 }
 
 .p1 .p1boy{
+    height: 50%;
+    width: auto;
     top: 50%;
     right: 26%;
     transform: translate(50%, -50%);
@@ -96,6 +109,8 @@
 }
 
 .p2 .p2crrc{
+    width: 100%;
+    width: auto;
     top: 20%;
     left: 50%;
     transform: translate(-50%, 0);
@@ -105,6 +120,8 @@
 }
 
 .p2 .p2girl{
+    height: 50%;
+    width: auto;
     top: 90%;
     left: 26%;
     transform: translate(-50%, -50%);
@@ -113,6 +130,8 @@
 }
 
 .p2 .p2boy{
+    height: 50%;
+    width: auto;
     top: 90%;
     right: 26%;
     transform: translate(50%, -50%);
@@ -121,6 +140,7 @@
 }
 
 .p3 img{
+    width: 100%;
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
@@ -129,6 +149,8 @@
 }
 
 .p4 .p4girl{
+    height: 50%;
+    width: auto;
     top: 40%;
     left: -100%;
     transform: translate(-50%, -50%);
@@ -137,6 +159,8 @@
 }
 
 .p4 .p4boy{
+    height: 50%;
+    width: auto;
     top: 40%;
     right: 26%;
     transform: translate(50%, -50%);
@@ -145,6 +169,8 @@
 }
 
 .p5 .p5girl{
+    height: 50%;
+    width: auto;
     top: 50%;
     left: 26%;
     transform: translate(-50%, -50%);
@@ -153,6 +179,8 @@
 }
 
 .p5 .p5boy{
+    height: 50%;
+    width: auto;
     top: 50%;
     right: 26%;
     transform: translate(50%, -50%);
@@ -161,6 +189,8 @@
 }
 
 .p6 .p6girl{
+    height: 50%;
+    width: auto;
     top: 50%;
     left: 26%;
     transform: translate(-50%, -50%);
@@ -169,6 +199,8 @@
 }
 
 .p6 .p6boy{
+    height: 50%;
+    width: auto;
     top: 50%;
     right: 26%;
     transform: translate(50%, -50%);
@@ -177,6 +209,8 @@
 }
 
 .p6 .p6floor{
+    width: 100%;
+    height: auto;
     top: 74%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -186,6 +220,8 @@
 }
 
 .p7 .p7suger{
+    width: 30%;
+    height: auto;
     top: 40%;
     left: 30%;
     transform: translate(-50%, -50%);
@@ -194,6 +230,8 @@
 }
 
 .p7 .p7quilt{
+    width: 30%;
+    height: auto;
     top: 50%;
     right: 30%;
     transform: translate(50%, -50%);
@@ -202,6 +240,8 @@
 }
 
 .p7 .p7paper{
+    width: 30%;
+    height: auto;
     top: 80%;
     left: 24%;
     transform: translate(-50%, -50%);
@@ -210,6 +250,8 @@
 }
 
 .p7 .p7orange{
+    width: 30%;
+    height: auto;
     top: 80%;
     right: 24%;
     transform: translate(50%, -50%);
@@ -218,6 +260,8 @@
 }
 
 .p8 img{
+    width: 100%;
+    height: auto;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -226,6 +270,8 @@
 }
 
 .p9 .p9sky{
+    width: 90%;
+    height: auto;
     top: 0;
     right: -100%;
     transform: translate(50%, 0);
@@ -234,6 +280,8 @@
 }
 
 .p9 .p9us{
+    width: 80%;
+    height: auto;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -242,6 +290,8 @@
 }
 
 .p9 .p9floor{
+    width: 100%;
+    height: auto;
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 0);
